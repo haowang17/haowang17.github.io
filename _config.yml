@@ -1,5 +1,5 @@
-name: 肖航课题组  Xiao Research Group
-url: https://xiaohang007.github.io/
+name: 叶锦翔 Ln university student
+url: https://neoye111.github.io/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -11,14 +11,14 @@ permalink: /blog/:year/:month/:day/:title.html
 encoding: utf-8
 # Sections on the "people" page.
 roles:
-  - key: faculty
-    name: 教师 Faculty
+  # - key: faculty
+  #   name: 教师 Faculty
   - key: grad
     name: 研究生 Graduate Students
-  - key: ugrad
-    name: 本科生 Undergraduate Students
-  - key: collab
-    name: 合作者 Collaborators
+  # - key: ugrad
+  #   name: 本科生 Undergraduate Students
+  # - key: collab
+  #   name: 合作者 Collaborators
 
 
 # Number of news stories on the front page.
@@ -36,7 +36,7 @@ collections:
 navigation:
   - title: 主页 Home
     link: /
-  - title: 科研 Research
-    link: /research.html
-  - title: 论文 Publications
-    link: /publications.html
+  # - title: 科研 Research
+  #   link: /research.html
+  # - title: 论文 Publications
+  #   link: /publications.html
