@@ -8,11 +8,13 @@ name: HAO WANG LINGNAN UNIVERISTY
 url: https://haowang17.github.io/
 # 导航栏配置，可修改标题、链接
 navigation:
-  - title: 主页Home
+  - title: Home
     link: /
-  - title: 科研项目Research
+  - title: News
+    link: /news.html
+  - title: Research
     link: /research.html
-  - title: 论文Publications
+  - title: Publications
     link: /publications.html
 
 title: blank # the website title (if blank, full name will be used instead)
