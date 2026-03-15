@@ -2,6 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# 网站名称，可修改为你的姓名/课题组名称
+name: 肖航课题组xiao Research Group
+# 网站地址，修改为你的GitHub Pages网址
+url: https://hx2152.github.io/
+# 导航栏配置，可修改标题、链接
+navigation:
+  - title: 主页Home
+    link: /
+  - title: 科研项目Research
+    link: /research.html
+  - title: 论文Publications
+    link: /publications.html
+
 title: blank # the website title (if blank, full name will be used instead)
 first_name: WANG
 middle_name: 
