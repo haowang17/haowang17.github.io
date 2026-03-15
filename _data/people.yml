@@ -3,14 +3,14 @@ profx:
   display_name: "肖航  Hang Xiao"
   github: xiaohang007
   role: faculty
-  image: /assets/img/people/hang.jpg  # ✅ 修正图片路径（添加assets）
+  image: /img/people/hang.jpg  # ✅ 修正图片路径（添加assets）
   bio: 助理教授  Assistant Professor
   webpage: "https://scholars.ln.edu.hk/en/persons/hang-xiao"
 
 scott:
   display_name: "Scott Summers"
   role: staff
-  image: /assets/img/people/scott.png  # ✅ 修正图片路径
+  image: /img/people/scott.png  # ✅ 修正图片路径
   bio: aka Cyclops
 
 wolverine:
@@ -22,17 +22,17 @@ wolverine:
 bizhu:
   display_name: "王昊 Wang Hao"
   role: grad
-  image: /assets/img/people/bizhu.jpg  # ✅ 修正图片路径
+  image: /img/people/bizhu.jpg  # ✅ 修正图片路径
 
 kedeng:
   display_name: "潘颖祥 Pan Yingxiang"
   role: grad
-  image: /assets/img/people/kedeng.jpg  # ✅ 修正图片路径
+  image: /img/people/kedeng.jpg  # ✅ 修正图片路径
 
 # storm:  # 取消注释即可启用该成员
 #   display_name: "虚位以待  We need you!"
 #   role: grad
-#   image: /assets/img/people/need.png  # ✅ 修正图片路径
+#   image: /img/people/need.png  # ✅ 修正图片路径
 
 alum-a:
   display_name: "Alum A"
