@@ -69,20 +69,3 @@ role-tables:
         </section>
     {% endfor %}
 </div>
-
-<!-- 【新增】自定义 CSS：实现成员信息左对齐 -->
-<style>
-    /* 针对成员卡片容器，强制左对齐 */
-    #people .people .col-md-4,
-    #people .people .col-md-5,
-    #people .people .col-md-6,
-    #people .people .col-md-7,
-    #people .people .col-md-8 {
-        text-align: left !important;
-    }
-
-    /* 若成员卡片内部有居中的元素，也强制左对齐（可选，根据实际效果调整） */
-    #people .people .person-card {
-        text-align: left !important;
-    }
-</style>
