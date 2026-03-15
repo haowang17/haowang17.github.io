@@ -145,3 +145,36 @@ svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
 }
+
+
+// 成员信息左对齐样式
+#people {
+  .people {
+    // 列容器左对齐
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8 {
+      text-align: left !important;
+    }
+  }
+}
+
+// 成员卡片内部元素左对齐
+.person {
+  text-align: left !important;
+  
+  .person-name {
+    text-align: left !important;
+  }
+  
+  .bio {
+    text-align: left !important;
+  }
+}
+
+// 无头像成员信息左对齐
+.person-without-image {
+  text-align: left !important;
+}
