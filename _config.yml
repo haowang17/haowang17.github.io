@@ -2,25 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-# 网站名称，可修改为你的姓名/课题组名称
-name: Lingnan University Wang Hao
-# 网站地址，修改为你的GitHub Pages网址
-url: https://haowang17.github.io/
-# 导航栏配置，可修改标题、链接
-navigation:
-  - title: 主页
-    link: /
-  - title: Research
-    link: /research.html
-  - title: News
-    link: /news.html
-  - title: Publications
-    link: /publications.html
-
 title: blank # the website title (if blank, full name will be used instead)
-first_name: WANG
+first_name: Hang
 middle_name: 
-last_name: HAO
+last_name: XIAO's group
 contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -33,6 +18,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
+url: https://xiaohang007.github.io/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -164,7 +150,7 @@ collections:
     defaults:
       layout: post
     output: true
-  项目:
+  projects:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -270,7 +256,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
-      标签: "/blog/:type/:name/"
+      tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
