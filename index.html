@@ -3,7 +3,20 @@ layout: default
 title: HOME
 notitle: true
 
-
+# 【新增】成员展示分栏配置：定义不同角色的列宽和是否显示头像
+role-tables:
+- - roles: [faculty, postdoc, staff]  # 第一行第一列：教职工、博士后、行政人员
+    width: 4                          # 列宽（Bootstrap 12列网格）
+    image: true                       # 显示头像
+  - roles: [grad]                     # 第一行第二列：研究生
+    width: 8                          # 列宽占8，和左侧4列凑满12
+    image: true
+- - roles: [collab, ugrad-alum]       # 第二行第一列：合作者、本科校友
+    width: 5
+    image: false                      # 不显示头像
+  - roles: [alum]                     # 第二行第二列：校友
+    width: 7
+    image: false
 ---
 
 <div class="jumbotron">
@@ -41,10 +54,6 @@ notitle: true
 <gradio-app src="https://xiaohang07-slices.hf.space" theme_mode="light"></gradio-app>
 
 <gradio-app src="https://xiaohang07-mattergpt-cpu.hf.space" theme_mode="light"></gradio-app> -->
-
-
-
-
 
 <div id="people">
     <h2>Group members</h2>
