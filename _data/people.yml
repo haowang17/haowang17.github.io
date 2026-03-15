@@ -29,6 +29,16 @@ kedeng:
   role: grad
   image: /img/people/kedeng.jpg  # ✅ 修正图片路径
 
+storm:
+  display_name: "叶锦翔 Ye Jingxiang"
+  role: grad
+  image: /img/people/storm.jpg  # ✅ 修正图片路径
+
+zhiming:
+  display_name: "黄志明 Huang Zhiming"
+  role: grad
+  image: /img/people/zhiming.jpg  # ✅ 修正图片路径
+
 # storm:  # 取消注释即可启用该成员
 #   display_name: "虚位以待  We need you!"
 #   role: grad
