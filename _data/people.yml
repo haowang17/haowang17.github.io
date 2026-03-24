@@ -23,6 +23,7 @@ bizhu:
   display_name: "王昊 Wang Hao"
   role: grad
   image: /img/people/bizhu.jpg  # ✅ 修正图片路径
+  url: /people/wanghao.html
 
 kedeng:
   display_name: "潘颖祥 Pan Yingxiang"
